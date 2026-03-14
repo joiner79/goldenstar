@@ -7,7 +7,7 @@ browser = play.chromium.launch(args=["--start-maximized"], headless= False, slow
 page = browser.new_page(no_viewport = True)
 page.goto("https://shopping.naver.com")
 page.pause()
-
+ 
 
 page.get_by_role("link", name="패션타운 NONE").click()
 page.get_by_role("button", name="유아동 유아동").click()
